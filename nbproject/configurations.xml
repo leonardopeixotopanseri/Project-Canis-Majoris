@@ -1,0 +1,2666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Arquivos de Cabeçalho"
+                   projectFiles="true">
+      <itemPath>SPU_Interface/JARVIS_PanelExhibition.h</itemPath>
+      <itemPath>Vocal_Synthesizer_Interface/analyseAudioSource.h</itemPath>
+      <itemPath>Audio_Interface/audioTransformer.h</itemPath>
+      <itemPath>Hardware_Interface/breakoutBoards.h</itemPath>
+      <itemPath>Audio_Interface/calculateTransferRate.h</itemPath>
+      <itemPath>Video_Interface/camera.h</itemPath>
+      <itemPath>Video_Interface/cameraCompositeDriver.h</itemPath>
+      <itemPath>Video_Interface/cameraDeallocator.h</itemPath>
+      <itemPath>Video_Interface/cameraDevice.h</itemPath>
+      <itemPath>Video_Interface/cameraDicoverySupport.h</itemPath>
+      <itemPath>Video_Interface/cameraDiscoveryEvent.h</itemPath>
+      <itemPath>Video_Interface/cameraDiscoveryListener.h</itemPath>
+      <itemPath>Video_Interface/cameraDiscoveryService.h</itemPath>
+      <itemPath>Video_Interface/cameraDriver.h</itemPath>
+      <itemPath>Video_Interface/cameraDriverUtils.h</itemPath>
+      <itemPath>Video_Interface/cameraEvents.h</itemPath>
+      <itemPath>Video_Interface/cameraEventsManager.h</itemPath>
+      <itemPath>Video_Interface/cameraEventsType.h</itemPath>
+      <itemPath>Video_Interface/cameraException.h</itemPath>
+      <itemPath>Video_Interface/cameraExceptionHandler.h</itemPath>
+      <itemPath>Video_Interface/cameraImageTransformer.h</itemPath>
+      <itemPath>Video_Interface/cameraListener.h</itemPath>
+      <itemPath>Video_Interface/cameraLock.h</itemPath>
+      <itemPath>Video_Interface/cameraLockException.h</itemPath>
+      <itemPath>Video_Interface/cameraMotionDetectior.h</itemPath>
+      <itemPath>Video_Interface/cameraMotionDetector.h</itemPath>
+      <itemPath>Video_Interface/cameraMotionEvent.h</itemPath>
+      <itemPath>Video_Interface/cameraMotionListener.h</itemPath>
+      <itemPath>Video_Interface/cameraPanel.h</itemPath>
+      <itemPath>Video_Interface/cameraPicker.h</itemPath>
+      <itemPath>Video_Interface/cameraPickerCellRender.h</itemPath>
+      <itemPath>Video_Interface/cameraPickerModel.h</itemPath>
+      <itemPath>Video_Interface/cameraProcessor.h</itemPath>
+      <itemPath>Video_Interface/cameraResolution.h</itemPath>
+      <itemPath>Video_Interface/cameraShutDownHook.h</itemPath>
+      <itemPath>Video_Interface/cameraSignalHandler.h</itemPath>
+      <itemPath>Video_Interface/cameraStreamer.h</itemPath>
+      <itemPath>Video_Interface/cameraTasks.h</itemPath>
+      <itemPath>Video_Interface/cameraUpdater.h</itemPath>
+      <itemPath>Video_Interface/cameraUtils.h</itemPath>
+      <itemPath>Video_Interface/cameraViewer.h</itemPath>
+      <itemPath>Hardware_Interface/communications.h</itemPath>
+      <itemPath>SPU_Interface/communicationsCommands.h</itemPath>
+      <itemPath>Hardware_Interface/components.h</itemPath>
+      <itemPath>Vocal_Synthesizer_Interface/concurentThreads.h</itemPath>
+      <itemPath>Audio_Interface/concurrentThreads.h</itemPath>
+      <itemPath>Hardware_Interface/controls.h</itemPath>
+      <itemPath>Audio_Interface/customRateTransfer.h</itemPath>
+      <itemPath>Security_Interface/defcomCommands.h</itemPath>
+      <itemPath>Security_Interface/defcomMode.h</itemPath>
+      <itemPath>Security_Interface/defcomTools.h</itemPath>
+      <itemPath>Audio_Interface/detectMicrophone.h</itemPath>
+      <itemPath>Hardware_Interface/developmentBoards.h</itemPath>
+      <itemPath>Hardware_Interface/developmentTools.h</itemPath>
+      <itemPath>Audio_Interface/differentFileFormats.h</itemPath>
+      <itemPath>Hardware_Interface/displays.h</itemPath>
+      <itemPath>Hardware_Interface/eTextiles.h</itemPath>
+      <itemPath>Security_Interface/edgeAndCornerDetection.h</itemPath>
+      <itemPath>Hardware_Interface/electricalAlimentation.h</itemPath>
+      <itemPath>Facial_Recognition_Interface/faceCompositeAnalysis.h</itemPath>
+      <itemPath>Facial_Recognition_Interface/faceDatabase.h</itemPath>
+      <itemPath>Facial_Recognition_Interface/faceDetection.h</itemPath>
+      <itemPath>Facial_Recognition_Interface/faceMatching.h</itemPath>
+      <itemPath>Facial_Recognition_Interface/faceTracking.h</itemPath>
+      <itemPath>Facial_Recognition_Interface/facialExpressionRecognition.h</itemPath>
+      <itemPath>SPU_Interface/gestureRecognition.h</itemPath>
+      <itemPath>Vocal_Synthesizer_Interface/giveResponseForManyUsers.h</itemPath>
+      <itemPath>SPU_Interface/guestCommands.h</itemPath>
+      <itemPath>Security_Interface/homelandSecurity.h</itemPath>
+      <itemPath>SPU_Interface/humanActivityRecognition.h</itemPath>
+      <itemPath>SPU_Interface/humanBodyMonitoring.h</itemPath>
+      <itemPath>SPU_Interface/internetBrowsersIntegration.h</itemPath>
+      <itemPath>Security_Interface/intruderDetection.h</itemPath>
+      <itemPath>Facial_Recognition_Interface/lipReadingRecognition.h</itemPath>
+      <itemPath>SPU_Interface/logicalObjects.h</itemPath>
+      <itemPath>Audio_Interface/microphoneDiscoveryListener.h</itemPath>
+      <itemPath>Audio_Interface/microphonePanel.h</itemPath>
+      <itemPath>Audio_Interface/microphonePanelFillArea.h</itemPath>
+      <itemPath>Audio_Interface/microphoneViewer.h</itemPath>
+      <itemPath>Hardware_Interface/motors.h</itemPath>
+      <itemPath>SPU_Interface/mouseCommands.h</itemPath>
+      <itemPath>Audio_Interface/mp3Streaming.h</itemPath>
+      <itemPath>SPU_Interface/multimidiaCommands.h</itemPath>
+      <itemPath>Audio_Interface/nonBlockingMode.h</itemPath>
+      <itemPath>Vocal_Synthesizer_Interface/nonBlockingMode.h</itemPath>
+      <itemPath>Facial_Recognition_Interface/objectDatabase.h</itemPath>
+      <itemPath>Facial_Recognition_Interface/objectRecognition.h</itemPath>
+      <itemPath>Facial_Recognition_Interface/objectTracking.h</itemPath>
+      <itemPath>SPU_Interface/officeSuiteCommands.h</itemPath>
+      <itemPath>Vocal_Synthesizer_Interface/outputAudioSources.h</itemPath>
+      <itemPath>Security_Interface/panelExhibitionInterface.h</itemPath>
+      <itemPath>SPU_Interface/personalCommands.h</itemPath>
+      <itemPath>Hardware_Interface/physicalObjects.h</itemPath>
+      <itemPath>Security_Interface/policeDatabase.h</itemPath>
+      <itemPath>SPU_Interface/processingCommands.h</itemPath>
+      <itemPath>SPU_Interface/programmingCommands.h</itemPath>
+      <itemPath>Hardware_Interface/prototyping.h</itemPath>
+      <itemPath>Audio_Interface/pureDefaultDevice.h</itemPath>
+      <itemPath>Audio_Interface/pureDeviceTests.h</itemPath>
+      <itemPath>Vocal_Synthesizer_Interface/pureSystemRespondTest.h</itemPath>
+      <itemPath>SPU_Interface/readingCommands.h</itemPath>
+      <itemPath>Security_Interface/realtimeStreetDetection.h</itemPath>
+      <itemPath>Security_Interface/realtimeSuspectsTracking.h</itemPath>
+      <itemPath>Hardware_Interface/robotics.h</itemPath>
+      <itemPath>SPU_Interface/securityWindowsCommands.h</itemPath>
+      <itemPath>Hardware_Interface/sensors.h</itemPath>
+      <itemPath>Hardware_Interface/shields.h</itemPath>
+      <itemPath>Security_Interface/suspectsHumansDatabase.h</itemPath>
+      <itemPath>Security_Interface/suspectsVehiclesDatabase.h</itemPath>
+      <itemPath>Vocal_Synthesizer_Interface/synthesizerSpellDatabase.h</itemPath>
+      <itemPath>Vocal_Synthesizer_Interface/systemOutputVoices.h</itemPath>
+      <itemPath>Facial_Recognition_Interface/t2DModeling.h</itemPath>
+      <itemPath>Facial_Recognition_Interface/t2DRendering.h</itemPath>
+      <itemPath>Facial_Recognition_Interface/t3DFaceRecognition.h</itemPath>
+      <itemPath>Facial_Recognition_Interface/t3DModeling.h</itemPath>
+      <itemPath>Facial_Recognition_Interface/t3DObjectDetection.h</itemPath>
+      <itemPath>Facial_Recognition_Interface/t3DScanning.h</itemPath>
+      <itemPath>Audio_Interface/takeAudioFromManyDevices.h</itemPath>
+      <itemPath>Facial_Recognition_Interface/textureMapping.h</itemPath>
+      <itemPath>SPU_Interface/timeWait.h</itemPath>
+      <itemPath>Hardware_Interface/tools.h</itemPath>
+      <itemPath>Vocal_Recognizer_Interface/voiceCompositeAnalysis.h</itemPath>
+      <itemPath>Vocal_Recognizer_Interface/voiceDatabase.h</itemPath>
+      <itemPath>Vocal_Recognizer_Interface/voiceDetect.h</itemPath>
+      <itemPath>Vocal_Recognizer_Interface/voiceDiscoveryListener.h</itemPath>
+      <itemPath>Vocal_Recognizer_Interface/voiceMapping.h</itemPath>
+      <itemPath>Vocal_Recognizer_Interface/voiceMatching.h</itemPath>
+      <itemPath>Vocal_Recognizer_Interface/voiceModelling.h</itemPath>
+      <itemPath>Vocal_Recognizer_Interface/voicePrinting.h</itemPath>
+      <itemPath>Vocal_Recognizer_Interface/voiceRecognition.h</itemPath>
+      <itemPath>Vocal_Recognizer_Interface/voiceRendering.h</itemPath>
+      <itemPath>Vocal_Recognizer_Interface/voiceScanning.h</itemPath>
+      <itemPath>Vocal_Recognizer_Interface/voiceSpeechRecognition.h</itemPath>
+      <itemPath>Vocal_Recognizer_Interface/voiceTracking.h</itemPath>
+      <itemPath>Audio_Interface/volumeLevelling.h</itemPath>
+      <itemPath>Vocal_Synthesizer_Interface/volumeLevellingMode.h</itemPath>
+      <itemPath>SPU_Interface/windowsInterfaceCommands.h</itemPath>
+      <itemPath>SPU_Interface/windowsSystemInterfaceCommands.h</itemPath>
+      <itemPath>Vocal_Synthesizer_Interface/wordsDatabase.h</itemPath>
+      <itemPath>SPU_Interface/writingCommands.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Arquivos de Código-Fonte"
+                   projectFiles="true">
+      <itemPath>SPU_Interface/JARVIS_PanelExhibition.cpp</itemPath>
+      <itemPath>Vocal_Synthesizer_Interface/analyseAudioSource.cpp</itemPath>
+      <itemPath>Audio_Interface/audioTransformer.cpp</itemPath>
+      <itemPath>Hardware_Interface/breakoutBoards.cpp</itemPath>
+      <itemPath>Audio_Interface/calculateTransferRate.cpp</itemPath>
+      <itemPath>Video_Interface/camera.cpp</itemPath>
+      <itemPath>Video_Interface/cameraCompositeDriver.cpp</itemPath>
+      <itemPath>Video_Interface/cameraDeallocator.cpp</itemPath>
+      <itemPath>Video_Interface/cameraDevice.cpp</itemPath>
+      <itemPath>Video_Interface/cameraDicoverySupport.cpp</itemPath>
+      <itemPath>Video_Interface/cameraDiscoveryEvent.cpp</itemPath>
+      <itemPath>Video_Interface/cameraDiscoveryListener.cpp</itemPath>
+      <itemPath>Video_Interface/cameraDiscoveryService.cpp</itemPath>
+      <itemPath>Video_Interface/cameraDriver.cpp</itemPath>
+      <itemPath>Video_Interface/cameraDriverUtils.cpp</itemPath>
+      <itemPath>Video_Interface/cameraEvents.cpp</itemPath>
+      <itemPath>Video_Interface/cameraEventsManager.cpp</itemPath>
+      <itemPath>Video_Interface/cameraEventsType.cpp</itemPath>
+      <itemPath>Video_Interface/cameraException.cpp</itemPath>
+      <itemPath>Video_Interface/cameraExceptionHandler.cpp</itemPath>
+      <itemPath>Video_Interface/cameraImageTransformer.cpp</itemPath>
+      <itemPath>Video_Interface/cameraListener.cpp</itemPath>
+      <itemPath>Video_Interface/cameraLock.cpp</itemPath>
+      <itemPath>Video_Interface/cameraLockException.cpp</itemPath>
+      <itemPath>Video_Interface/cameraMotionDetectior.cpp</itemPath>
+      <itemPath>Video_Interface/cameraMotionDetector.cpp</itemPath>
+      <itemPath>Video_Interface/cameraMotionEvent.cpp</itemPath>
+      <itemPath>Video_Interface/cameraMotionListener.cpp</itemPath>
+      <itemPath>Video_Interface/cameraPanel.cpp</itemPath>
+      <itemPath>Video_Interface/cameraPicker.cpp</itemPath>
+      <itemPath>Video_Interface/cameraPickerCellRender.cpp</itemPath>
+      <itemPath>Video_Interface/cameraPickerModel.cpp</itemPath>
+      <itemPath>Video_Interface/cameraProcessor.cpp</itemPath>
+      <itemPath>Video_Interface/cameraResolution.cpp</itemPath>
+      <itemPath>Video_Interface/cameraShutDownHook.cpp</itemPath>
+      <itemPath>Video_Interface/cameraSignalHandler.cpp</itemPath>
+      <itemPath>Video_Interface/cameraStreamer.cpp</itemPath>
+      <itemPath>Video_Interface/cameraTasks.cpp</itemPath>
+      <itemPath>Video_Interface/cameraUpdater.cpp</itemPath>
+      <itemPath>Video_Interface/cameraUtils.cpp</itemPath>
+      <itemPath>Video_Interface/cameraViewer.cpp</itemPath>
+      <itemPath>Hardware_Interface/communications.cpp</itemPath>
+      <itemPath>SPU_Interface/communicationsCommands.cpp</itemPath>
+      <itemPath>Hardware_Interface/components.cpp</itemPath>
+      <itemPath>Vocal_Synthesizer_Interface/concurentThreads.cpp</itemPath>
+      <itemPath>Audio_Interface/concurrentThreads.cpp</itemPath>
+      <itemPath>Hardware_Interface/controls.cpp</itemPath>
+      <itemPath>Audio_Interface/customRateTransfer.cpp</itemPath>
+      <itemPath>Security_Interface/defcomCommands.cpp</itemPath>
+      <itemPath>Security_Interface/defcomMode.cpp</itemPath>
+      <itemPath>Security_Interface/defcomTools.cpp</itemPath>
+      <itemPath>Audio_Interface/detectMicrophone.cpp</itemPath>
+      <itemPath>Hardware_Interface/developmentBoards.cpp</itemPath>
+      <itemPath>Hardware_Interface/developmentTools.cpp</itemPath>
+      <itemPath>Audio_Interface/differentFileFormats.cpp</itemPath>
+      <itemPath>Hardware_Interface/displays.cpp</itemPath>
+      <itemPath>Hardware_Interface/eTextiles.cpp</itemPath>
+      <itemPath>Security_Interface/edgeAndCornerDetection.cpp</itemPath>
+      <itemPath>Hardware_Interface/electricalAlimentation.cpp</itemPath>
+      <itemPath>Facial_Recognition_Interface/faceCompositeAnalysis.cpp</itemPath>
+      <itemPath>Facial_Recognition_Interface/faceDatabase.cpp</itemPath>
+      <itemPath>Facial_Recognition_Interface/faceDetection.cpp</itemPath>
+      <itemPath>Facial_Recognition_Interface/faceMatching.cpp</itemPath>
+      <itemPath>Facial_Recognition_Interface/faceTracking.cpp</itemPath>
+      <itemPath>Facial_Recognition_Interface/facialExpressionRecognition.cpp</itemPath>
+      <itemPath>SPU_Interface/gestureRecognition.cpp</itemPath>
+      <itemPath>Vocal_Synthesizer_Interface/giveResponseForManyUsers.cpp</itemPath>
+      <itemPath>SPU_Interface/guestCommands.cpp</itemPath>
+      <itemPath>Security_Interface/homelandSecurity.cpp</itemPath>
+      <itemPath>SPU_Interface/humanActivityRecognition.cpp</itemPath>
+      <itemPath>SPU_Interface/humanBodyMonitoring.cpp</itemPath>
+      <itemPath>SPU_Interface/internetBrowsersIntegration.cpp</itemPath>
+      <itemPath>Security_Interface/intruderDetection.cpp</itemPath>
+      <itemPath>Facial_Recognition_Interface/lipReadingRecognition.cpp</itemPath>
+      <itemPath>SPU_Interface/logicalObjects.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+      <itemPath>Audio_Interface/microphoneDiscoveryListener.cpp</itemPath>
+      <itemPath>Audio_Interface/microphonePanel.cpp</itemPath>
+      <itemPath>Audio_Interface/microphonePanelFillArea.cpp</itemPath>
+      <itemPath>Audio_Interface/microphoneViewer.cpp</itemPath>
+      <itemPath>Hardware_Interface/motors.cpp</itemPath>
+      <itemPath>SPU_Interface/mouseCommands.cpp</itemPath>
+      <itemPath>Audio_Interface/mp3Streaming.cpp</itemPath>
+      <itemPath>SPU_Interface/multimidiaCommands.cpp</itemPath>
+      <itemPath>Audio_Interface/nonBlockingMode.cpp</itemPath>
+      <itemPath>Vocal_Synthesizer_Interface/nonBlockingMode.cpp</itemPath>
+      <itemPath>Facial_Recognition_Interface/objectDatabase.cpp</itemPath>
+      <itemPath>Facial_Recognition_Interface/objectRecognition.cpp</itemPath>
+      <itemPath>Facial_Recognition_Interface/objectTracking.cpp</itemPath>
+      <itemPath>SPU_Interface/officeSuiteCommands.cpp</itemPath>
+      <itemPath>Vocal_Synthesizer_Interface/outputAudioSources.cpp</itemPath>
+      <itemPath>Security_Interface/panelExhibitionInterface.cpp</itemPath>
+      <itemPath>SPU_Interface/personalCommands.cpp</itemPath>
+      <itemPath>Hardware_Interface/physicalObjects.cpp</itemPath>
+      <itemPath>Security_Interface/policeDatabase.cpp</itemPath>
+      <itemPath>SPU_Interface/processingCommands.cpp</itemPath>
+      <itemPath>SPU_Interface/programmingCommands.cpp</itemPath>
+      <itemPath>Hardware_Interface/prototyping.cpp</itemPath>
+      <itemPath>Audio_Interface/pureDefaultDevice.cpp</itemPath>
+      <itemPath>Audio_Interface/pureDeviceTests.cpp</itemPath>
+      <itemPath>Vocal_Synthesizer_Interface/pureSystemRespondTest.cpp</itemPath>
+      <itemPath>SPU_Interface/readingCommands.cpp</itemPath>
+      <itemPath>Security_Interface/realtimeStreetDetection.cpp</itemPath>
+      <itemPath>Security_Interface/realtimeSuspectsTracking.cpp</itemPath>
+      <itemPath>Hardware_Interface/robotics.cpp</itemPath>
+      <itemPath>SPU_Interface/securityWindowsCommands.cpp</itemPath>
+      <itemPath>Hardware_Interface/sensors.cpp</itemPath>
+      <itemPath>Hardware_Interface/shields.cpp</itemPath>
+      <itemPath>Security_Interface/suspectsHumansDatabase.cpp</itemPath>
+      <itemPath>Security_Interface/suspectsVehiclesDatabase.cpp</itemPath>
+      <itemPath>Vocal_Synthesizer_Interface/synthesizerSpellDatabase.cpp</itemPath>
+      <itemPath>Vocal_Synthesizer_Interface/systemOutputVoices.cpp</itemPath>
+      <itemPath>Facial_Recognition_Interface/t2DModeling.cpp</itemPath>
+      <itemPath>Facial_Recognition_Interface/t2DRendering.cpp</itemPath>
+      <itemPath>Facial_Recognition_Interface/t3DFaceRecognition.cpp</itemPath>
+      <itemPath>Facial_Recognition_Interface/t3DModeling.cpp</itemPath>
+      <itemPath>Facial_Recognition_Interface/t3DObjectDetection.cpp</itemPath>
+      <itemPath>Facial_Recognition_Interface/t3DScanning.cpp</itemPath>
+      <itemPath>Audio_Interface/takeAudioFromManyDevices.cpp</itemPath>
+      <itemPath>Facial_Recognition_Interface/textureMapping.cpp</itemPath>
+      <itemPath>SPU_Interface/timeWait.cpp</itemPath>
+      <itemPath>Hardware_Interface/tools.cpp</itemPath>
+      <itemPath>Vocal_Recognizer_Interface/voiceCompositeAnalysis.cpp</itemPath>
+      <itemPath>Vocal_Recognizer_Interface/voiceDatabase.cpp</itemPath>
+      <itemPath>Vocal_Recognizer_Interface/voiceDetect.cpp</itemPath>
+      <itemPath>Vocal_Recognizer_Interface/voiceDiscoveryListener.cpp</itemPath>
+      <itemPath>Vocal_Recognizer_Interface/voiceMapping.cpp</itemPath>
+      <itemPath>Vocal_Recognizer_Interface/voiceMatching.cpp</itemPath>
+      <itemPath>Vocal_Recognizer_Interface/voiceModelling.cpp</itemPath>
+      <itemPath>Vocal_Recognizer_Interface/voicePrinting.cpp</itemPath>
+      <itemPath>Vocal_Recognizer_Interface/voiceRecognition.cpp</itemPath>
+      <itemPath>Vocal_Recognizer_Interface/voiceRendering.cpp</itemPath>
+      <itemPath>Vocal_Recognizer_Interface/voiceScanning.cpp</itemPath>
+      <itemPath>Vocal_Recognizer_Interface/voiceSpeechRecognition.cpp</itemPath>
+      <itemPath>Vocal_Recognizer_Interface/voiceTracking.cpp</itemPath>
+      <itemPath>Audio_Interface/volumeLevelling.cpp</itemPath>
+      <itemPath>Vocal_Synthesizer_Interface/volumeLevellingMode.cpp</itemPath>
+      <itemPath>SPU_Interface/windowsInterfaceCommands.cpp</itemPath>
+      <itemPath>SPU_Interface/windowsSystemInterfaceCommands.cpp</itemPath>
+      <itemPath>Vocal_Synthesizer_Interface/wordsDatabase.cpp</itemPath>
+      <itemPath>SPU_Interface/writingCommands.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Arquivos de Recurso"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Arquivos de Teste"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Arquivos Importantes"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>GNU|GNU</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+      </compileType>
+      <item path="Audio_Interface/audioTransformer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Audio_Interface/audioTransformer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Audio_Interface/calculateTransferRate.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Audio_Interface/calculateTransferRate.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Audio_Interface/concurrentThreads.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Audio_Interface/concurrentThreads.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Audio_Interface/customRateTransfer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Audio_Interface/customRateTransfer.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Audio_Interface/detectMicrophone.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Audio_Interface/detectMicrophone.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Audio_Interface/differentFileFormats.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Audio_Interface/differentFileFormats.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Audio_Interface/microphoneDiscoveryListener.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Audio_Interface/microphoneDiscoveryListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Audio_Interface/microphonePanel.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Audio_Interface/microphonePanel.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Audio_Interface/microphonePanelFillArea.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Audio_Interface/microphonePanelFillArea.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Audio_Interface/microphoneViewer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Audio_Interface/microphoneViewer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Audio_Interface/mp3Streaming.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Audio_Interface/mp3Streaming.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Audio_Interface/nonBlockingMode.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Audio_Interface/nonBlockingMode.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Audio_Interface/pureDefaultDevice.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Audio_Interface/pureDefaultDevice.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Audio_Interface/pureDeviceTests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Audio_Interface/pureDeviceTests.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Audio_Interface/takeAudioFromManyDevices.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Audio_Interface/takeAudioFromManyDevices.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Audio_Interface/volumeLevelling.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Audio_Interface/volumeLevelling.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/faceCompositeAnalysis.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/faceCompositeAnalysis.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/faceDatabase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/faceDatabase.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/faceDetection.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/faceDetection.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/faceMatching.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/faceMatching.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/faceTracking.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/faceTracking.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/facialExpressionRecognition.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/facialExpressionRecognition.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/lipReadingRecognition.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/lipReadingRecognition.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/objectDatabase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/objectDatabase.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/objectRecognition.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/objectRecognition.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/objectTracking.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/objectTracking.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/t2DModeling.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/t2DModeling.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/t2DRendering.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/t2DRendering.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/t3DFaceRecognition.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/t3DFaceRecognition.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/t3DModeling.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/t3DModeling.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/t3DObjectDetection.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/t3DObjectDetection.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/t3DScanning.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/t3DScanning.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/textureMapping.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/textureMapping.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Hardware_Interface/breakoutBoards.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Hardware_Interface/breakoutBoards.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Hardware_Interface/communications.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Hardware_Interface/communications.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Hardware_Interface/components.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Hardware_Interface/components.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Hardware_Interface/controls.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Hardware_Interface/controls.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Hardware_Interface/developmentBoards.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Hardware_Interface/developmentBoards.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Hardware_Interface/developmentTools.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Hardware_Interface/developmentTools.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Hardware_Interface/displays.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Hardware_Interface/displays.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Hardware_Interface/eTextiles.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Hardware_Interface/eTextiles.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Hardware_Interface/electricalAlimentation.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Hardware_Interface/electricalAlimentation.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Hardware_Interface/motors.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Hardware_Interface/motors.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Hardware_Interface/physicalObjects.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Hardware_Interface/physicalObjects.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Hardware_Interface/prototyping.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Hardware_Interface/prototyping.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Hardware_Interface/robotics.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Hardware_Interface/robotics.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Hardware_Interface/sensors.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Hardware_Interface/sensors.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Hardware_Interface/shields.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Hardware_Interface/shields.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Hardware_Interface/tools.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Hardware_Interface/tools.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SPU_Interface/JARVIS_PanelExhibition.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="SPU_Interface/JARVIS_PanelExhibition.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="SPU_Interface/communicationsCommands.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="SPU_Interface/communicationsCommands.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="SPU_Interface/gestureRecognition.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="SPU_Interface/gestureRecognition.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SPU_Interface/guestCommands.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SPU_Interface/guestCommands.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SPU_Interface/humanActivityRecognition.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="SPU_Interface/humanActivityRecognition.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="SPU_Interface/humanBodyMonitoring.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="SPU_Interface/humanBodyMonitoring.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="SPU_Interface/internetBrowsersIntegration.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="SPU_Interface/internetBrowsersIntegration.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="SPU_Interface/logicalObjects.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SPU_Interface/logicalObjects.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SPU_Interface/mouseCommands.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SPU_Interface/mouseCommands.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SPU_Interface/multimidiaCommands.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="SPU_Interface/multimidiaCommands.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SPU_Interface/officeSuiteCommands.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="SPU_Interface/officeSuiteCommands.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="SPU_Interface/personalCommands.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SPU_Interface/personalCommands.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SPU_Interface/processingCommands.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="SPU_Interface/processingCommands.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SPU_Interface/programmingCommands.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="SPU_Interface/programmingCommands.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="SPU_Interface/readingCommands.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SPU_Interface/readingCommands.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SPU_Interface/securityWindowsCommands.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="SPU_Interface/securityWindowsCommands.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="SPU_Interface/timeWait.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SPU_Interface/timeWait.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SPU_Interface/windowsInterfaceCommands.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="SPU_Interface/windowsInterfaceCommands.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="SPU_Interface/windowsSystemInterfaceCommands.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="SPU_Interface/windowsSystemInterfaceCommands.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="SPU_Interface/writingCommands.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SPU_Interface/writingCommands.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Security_Interface/defcomCommands.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Security_Interface/defcomCommands.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Security_Interface/defcomMode.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Security_Interface/defcomMode.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Security_Interface/defcomTools.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Security_Interface/defcomTools.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Security_Interface/edgeAndCornerDetection.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Security_Interface/edgeAndCornerDetection.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Security_Interface/homelandSecurity.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Security_Interface/homelandSecurity.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Security_Interface/intruderDetection.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Security_Interface/intruderDetection.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Security_Interface/panelExhibitionInterface.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Security_Interface/panelExhibitionInterface.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Security_Interface/policeDatabase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Security_Interface/policeDatabase.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Security_Interface/realtimeStreetDetection.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Security_Interface/realtimeStreetDetection.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Security_Interface/realtimeSuspectsTracking.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Security_Interface/realtimeSuspectsTracking.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Security_Interface/suspectsHumansDatabase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Security_Interface/suspectsHumansDatabase.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Security_Interface/suspectsVehiclesDatabase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Security_Interface/suspectsVehiclesDatabase.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/camera.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Video_Interface/camera.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraCompositeDriver.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraCompositeDriver.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraDeallocator.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraDeallocator.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraDevice.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraDevice.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraDicoverySupport.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraDicoverySupport.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraDiscoveryEvent.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraDiscoveryEvent.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraDiscoveryListener.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraDiscoveryListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraDiscoveryService.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraDiscoveryService.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraDriver.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraDriver.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraDriverUtils.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraDriverUtils.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraEvents.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraEvents.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraEventsManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraEventsManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraEventsType.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraEventsType.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraException.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraException.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraExceptionHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraExceptionHandler.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraImageTransformer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraImageTransformer.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraListener.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraListener.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraLock.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraLock.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraLockException.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraLockException.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraMotionDetectior.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraMotionDetectior.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraMotionDetector.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraMotionDetector.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraMotionEvent.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraMotionEvent.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraMotionListener.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraMotionListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraPanel.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraPanel.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraPicker.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraPicker.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraPickerCellRender.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraPickerCellRender.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraPickerModel.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraPickerModel.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraProcessor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraProcessor.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraResolution.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraResolution.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraShutDownHook.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraShutDownHook.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraSignalHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraSignalHandler.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraStreamer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraStreamer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraTasks.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraTasks.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraUpdater.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraUpdater.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraUtils.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraUtils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraViewer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraViewer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Vocal_Recognizer_Interface/voiceCompositeAnalysis.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Recognizer_Interface/voiceCompositeAnalysis.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Recognizer_Interface/voiceDatabase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Recognizer_Interface/voiceDatabase.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Recognizer_Interface/voiceDetect.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Recognizer_Interface/voiceDetect.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Recognizer_Interface/voiceDiscoveryListener.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Recognizer_Interface/voiceDiscoveryListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Recognizer_Interface/voiceMapping.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Recognizer_Interface/voiceMapping.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Recognizer_Interface/voiceMatching.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Recognizer_Interface/voiceMatching.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Recognizer_Interface/voiceModelling.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Recognizer_Interface/voiceModelling.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Recognizer_Interface/voicePrinting.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Recognizer_Interface/voicePrinting.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Recognizer_Interface/voiceRecognition.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Recognizer_Interface/voiceRecognition.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Recognizer_Interface/voiceRendering.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Recognizer_Interface/voiceRendering.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Recognizer_Interface/voiceScanning.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Recognizer_Interface/voiceScanning.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Recognizer_Interface/voiceSpeechRecognition.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Recognizer_Interface/voiceSpeechRecognition.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Recognizer_Interface/voiceTracking.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Recognizer_Interface/voiceTracking.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Synthesizer_Interface/analyseAudioSource.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Synthesizer_Interface/analyseAudioSource.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Synthesizer_Interface/concurentThreads.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Synthesizer_Interface/concurentThreads.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Synthesizer_Interface/giveResponseForManyUsers.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Synthesizer_Interface/giveResponseForManyUsers.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Synthesizer_Interface/nonBlockingMode.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Synthesizer_Interface/nonBlockingMode.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Synthesizer_Interface/outputAudioSources.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Synthesizer_Interface/outputAudioSources.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Synthesizer_Interface/pureSystemRespondTest.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Synthesizer_Interface/pureSystemRespondTest.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Synthesizer_Interface/synthesizerSpellDatabase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Synthesizer_Interface/synthesizerSpellDatabase.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Synthesizer_Interface/systemOutputVoices.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Synthesizer_Interface/systemOutputVoices.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Synthesizer_Interface/volumeLevellingMode.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Synthesizer_Interface/volumeLevellingMode.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Synthesizer_Interface/wordsDatabase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Synthesizer_Interface/wordsDatabase.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>GNU|GNU</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="Audio_Interface/audioTransformer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Audio_Interface/audioTransformer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Audio_Interface/calculateTransferRate.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Audio_Interface/calculateTransferRate.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Audio_Interface/concurrentThreads.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Audio_Interface/concurrentThreads.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Audio_Interface/customRateTransfer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Audio_Interface/customRateTransfer.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Audio_Interface/detectMicrophone.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Audio_Interface/detectMicrophone.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Audio_Interface/differentFileFormats.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Audio_Interface/differentFileFormats.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Audio_Interface/microphoneDiscoveryListener.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Audio_Interface/microphoneDiscoveryListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Audio_Interface/microphonePanel.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Audio_Interface/microphonePanel.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Audio_Interface/microphonePanelFillArea.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Audio_Interface/microphonePanelFillArea.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Audio_Interface/microphoneViewer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Audio_Interface/microphoneViewer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Audio_Interface/mp3Streaming.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Audio_Interface/mp3Streaming.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Audio_Interface/nonBlockingMode.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Audio_Interface/nonBlockingMode.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Audio_Interface/pureDefaultDevice.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Audio_Interface/pureDefaultDevice.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Audio_Interface/pureDeviceTests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Audio_Interface/pureDeviceTests.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Audio_Interface/takeAudioFromManyDevices.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Audio_Interface/takeAudioFromManyDevices.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Audio_Interface/volumeLevelling.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Audio_Interface/volumeLevelling.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/faceCompositeAnalysis.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/faceCompositeAnalysis.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/faceDatabase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/faceDatabase.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/faceDetection.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/faceDetection.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/faceMatching.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/faceMatching.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/faceTracking.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/faceTracking.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/facialExpressionRecognition.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/facialExpressionRecognition.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/lipReadingRecognition.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/lipReadingRecognition.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/objectDatabase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/objectDatabase.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/objectRecognition.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/objectRecognition.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/objectTracking.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/objectTracking.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/t2DModeling.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/t2DModeling.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/t2DRendering.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/t2DRendering.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/t3DFaceRecognition.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/t3DFaceRecognition.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/t3DModeling.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/t3DModeling.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/t3DObjectDetection.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/t3DObjectDetection.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/t3DScanning.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/t3DScanning.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/textureMapping.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Facial_Recognition_Interface/textureMapping.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Hardware_Interface/breakoutBoards.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Hardware_Interface/breakoutBoards.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Hardware_Interface/communications.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Hardware_Interface/communications.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Hardware_Interface/components.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Hardware_Interface/components.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Hardware_Interface/controls.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Hardware_Interface/controls.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Hardware_Interface/developmentBoards.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Hardware_Interface/developmentBoards.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Hardware_Interface/developmentTools.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Hardware_Interface/developmentTools.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Hardware_Interface/displays.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Hardware_Interface/displays.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Hardware_Interface/eTextiles.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Hardware_Interface/eTextiles.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Hardware_Interface/electricalAlimentation.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Hardware_Interface/electricalAlimentation.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Hardware_Interface/motors.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Hardware_Interface/motors.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Hardware_Interface/physicalObjects.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Hardware_Interface/physicalObjects.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Hardware_Interface/prototyping.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Hardware_Interface/prototyping.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Hardware_Interface/robotics.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Hardware_Interface/robotics.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Hardware_Interface/sensors.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Hardware_Interface/sensors.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Hardware_Interface/shields.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Hardware_Interface/shields.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Hardware_Interface/tools.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Hardware_Interface/tools.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SPU_Interface/JARVIS_PanelExhibition.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="SPU_Interface/JARVIS_PanelExhibition.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="SPU_Interface/communicationsCommands.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="SPU_Interface/communicationsCommands.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="SPU_Interface/gestureRecognition.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="SPU_Interface/gestureRecognition.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SPU_Interface/guestCommands.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SPU_Interface/guestCommands.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SPU_Interface/humanActivityRecognition.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="SPU_Interface/humanActivityRecognition.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="SPU_Interface/humanBodyMonitoring.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="SPU_Interface/humanBodyMonitoring.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="SPU_Interface/internetBrowsersIntegration.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="SPU_Interface/internetBrowsersIntegration.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="SPU_Interface/logicalObjects.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SPU_Interface/logicalObjects.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SPU_Interface/mouseCommands.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SPU_Interface/mouseCommands.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SPU_Interface/multimidiaCommands.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="SPU_Interface/multimidiaCommands.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SPU_Interface/officeSuiteCommands.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="SPU_Interface/officeSuiteCommands.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="SPU_Interface/personalCommands.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SPU_Interface/personalCommands.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SPU_Interface/processingCommands.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="SPU_Interface/processingCommands.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SPU_Interface/programmingCommands.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="SPU_Interface/programmingCommands.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="SPU_Interface/readingCommands.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SPU_Interface/readingCommands.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SPU_Interface/securityWindowsCommands.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="SPU_Interface/securityWindowsCommands.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="SPU_Interface/timeWait.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SPU_Interface/timeWait.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SPU_Interface/windowsInterfaceCommands.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="SPU_Interface/windowsInterfaceCommands.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="SPU_Interface/windowsSystemInterfaceCommands.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="SPU_Interface/windowsSystemInterfaceCommands.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="SPU_Interface/writingCommands.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SPU_Interface/writingCommands.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Security_Interface/defcomCommands.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Security_Interface/defcomCommands.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Security_Interface/defcomMode.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Security_Interface/defcomMode.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Security_Interface/defcomTools.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Security_Interface/defcomTools.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Security_Interface/edgeAndCornerDetection.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Security_Interface/edgeAndCornerDetection.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Security_Interface/homelandSecurity.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Security_Interface/homelandSecurity.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Security_Interface/intruderDetection.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Security_Interface/intruderDetection.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Security_Interface/panelExhibitionInterface.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Security_Interface/panelExhibitionInterface.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Security_Interface/policeDatabase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Security_Interface/policeDatabase.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Security_Interface/realtimeStreetDetection.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Security_Interface/realtimeStreetDetection.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Security_Interface/realtimeSuspectsTracking.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Security_Interface/realtimeSuspectsTracking.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Security_Interface/suspectsHumansDatabase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Security_Interface/suspectsHumansDatabase.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Security_Interface/suspectsVehiclesDatabase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Security_Interface/suspectsVehiclesDatabase.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/camera.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Video_Interface/camera.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraCompositeDriver.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraCompositeDriver.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraDeallocator.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraDeallocator.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraDevice.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraDevice.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraDicoverySupport.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraDicoverySupport.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraDiscoveryEvent.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraDiscoveryEvent.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraDiscoveryListener.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraDiscoveryListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraDiscoveryService.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraDiscoveryService.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraDriver.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraDriver.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraDriverUtils.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraDriverUtils.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraEvents.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraEvents.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraEventsManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraEventsManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraEventsType.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraEventsType.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraException.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraException.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraExceptionHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraExceptionHandler.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraImageTransformer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraImageTransformer.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraListener.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraListener.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraLock.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraLock.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraLockException.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraLockException.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraMotionDetectior.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraMotionDetectior.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraMotionDetector.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraMotionDetector.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraMotionEvent.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraMotionEvent.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraMotionListener.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraMotionListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraPanel.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraPanel.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraPicker.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraPicker.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraPickerCellRender.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraPickerCellRender.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraPickerModel.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraPickerModel.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraProcessor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraProcessor.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraResolution.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraResolution.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraShutDownHook.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraShutDownHook.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraSignalHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraSignalHandler.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraStreamer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraStreamer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraTasks.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraTasks.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraUpdater.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraUpdater.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraUtils.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraUtils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraViewer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Video_Interface/cameraViewer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Vocal_Recognizer_Interface/voiceCompositeAnalysis.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Recognizer_Interface/voiceCompositeAnalysis.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Recognizer_Interface/voiceDatabase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Recognizer_Interface/voiceDatabase.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Recognizer_Interface/voiceDetect.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Recognizer_Interface/voiceDetect.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Recognizer_Interface/voiceDiscoveryListener.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Recognizer_Interface/voiceDiscoveryListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Recognizer_Interface/voiceMapping.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Recognizer_Interface/voiceMapping.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Recognizer_Interface/voiceMatching.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Recognizer_Interface/voiceMatching.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Recognizer_Interface/voiceModelling.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Recognizer_Interface/voiceModelling.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Recognizer_Interface/voicePrinting.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Recognizer_Interface/voicePrinting.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Recognizer_Interface/voiceRecognition.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Recognizer_Interface/voiceRecognition.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Recognizer_Interface/voiceRendering.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Recognizer_Interface/voiceRendering.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Recognizer_Interface/voiceScanning.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Recognizer_Interface/voiceScanning.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Recognizer_Interface/voiceSpeechRecognition.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Recognizer_Interface/voiceSpeechRecognition.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Recognizer_Interface/voiceTracking.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Recognizer_Interface/voiceTracking.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Synthesizer_Interface/analyseAudioSource.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Synthesizer_Interface/analyseAudioSource.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Synthesizer_Interface/concurentThreads.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Synthesizer_Interface/concurentThreads.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Synthesizer_Interface/giveResponseForManyUsers.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Synthesizer_Interface/giveResponseForManyUsers.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Synthesizer_Interface/nonBlockingMode.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Synthesizer_Interface/nonBlockingMode.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Synthesizer_Interface/outputAudioSources.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Synthesizer_Interface/outputAudioSources.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Synthesizer_Interface/pureSystemRespondTest.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Synthesizer_Interface/pureSystemRespondTest.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Synthesizer_Interface/synthesizerSpellDatabase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Synthesizer_Interface/synthesizerSpellDatabase.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Synthesizer_Interface/systemOutputVoices.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Synthesizer_Interface/systemOutputVoices.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Synthesizer_Interface/volumeLevellingMode.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Synthesizer_Interface/volumeLevellingMode.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Synthesizer_Interface/wordsDatabase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Vocal_Synthesizer_Interface/wordsDatabase.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
